@@ -20,7 +20,6 @@ html {
 html, body {
   font-size: 16px;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
-  /* background: #edf2f7; */
   line-height: 1.35;
 }
 
@@ -63,8 +62,6 @@ header a{
 
 header, footer, section.grid-about {
   padding: 2vmax 8vmax;
-  /* width:  */
-  /* background: #f7fafc; */
   background: #edf2f7;
   display: flex;
   justify-content: space-between;

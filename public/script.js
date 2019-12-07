@@ -45,7 +45,7 @@ btn.addEventListener('click', (e) => {
 
             songIndex = i;
 
-  
+
             navs.forEach((nav) => {
               nav.style.visibility = 'visible'
               nav.style.opacity = '1'
@@ -54,9 +54,15 @@ btn.addEventListener('click', (e) => {
             subtitle.forEach(title => title.style.visibility = 'visible');
             loading.style.visibility = 'hidden';
             loading.style.opacity = 0;
-            title.innerText = data[i].title;
+
+            let twiTitle = data[i].title.replace(/q|Q/g, 'ε');
+            title.innerText = twiTitle.replace(/x|X/g, 'ɔ');
             hymnID.innerText = data[i].number;
-            output[0].innerText = data[i].songEN;
+            // A B D E ε F H I J K L M N Ŋ O ɔ P R S T U V W Y Z
+            // a b d e ε f g h i j k l m n ŋ o ɔ p r s t u v w y z
+          
+            let twiHymn = data[i].songEN.replace(/q|Q/g,'ε')  
+            output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[i].songTWI;
             checkEng(data, i);
 
@@ -115,8 +121,11 @@ nextBTN.forEach((btn) => {
             subtitle.forEach(title => title.style.visibility = 'visible');
             loading.style.visibility = 'hidden';
             loading.style.opacity = 0;
-            title.innerText = data[songIndex].title;
-            output[0].innerText = data[songIndex].songEN;
+
+            let twiTitle = data[songIndex].title.replace(/q|Q/g, 'ε');
+            title.innerText = twiTitle.replace(/x|X/g, 'ɔ');
+            let twiHymn = data[songIndex].songEN.replace(/q|Q/g,'ε')  
+            output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[songIndex].songTWI;
             checkEng(data, songIndex);
 
@@ -162,7 +171,7 @@ prevBTN.forEach((btn) => {
     let hymnID = input.value.toUpperCase().replace(/ /g, "");
 
 
-  
+
 
     setTimeout(() => {
 
@@ -180,13 +189,16 @@ prevBTN.forEach((btn) => {
               nav.style.opacity = '1'
             });
 
-
             input.value = data[songIndex].number;
             subtitle.forEach(title => title.style.visibility = 'visible');
             loading.style.visibility = 'hidden';
             loading.style.opacity = 0;
-            title.innerText = data[songIndex].title;
-            output[0].innerText = data[songIndex].songEN;
+
+            let twiTitle = data[songIndex].title.replace(/q|Q/g, 'ε');
+            title.innerText = twiTitle.replace(/x|X/g, 'ɔ');
+
+            let twiHymn = data[songIndex].songEN.replace(/q|Q/g,'ε')  
+            output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[songIndex].songTWI;
             checkEng(data, songIndex);
 

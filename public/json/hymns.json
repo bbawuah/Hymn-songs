@@ -4181,7 +4181,7 @@
   {
     "number": "N4",
     "title": "Afei Ayeyi Nnwonto Mu\nNow In A Song",
-    "songEN": "Afie ayeyi nnwonto mu,\nNa mqkamfo Awurade;\nMe ne 'hotefo bqka sq:\nYesu ayq ade nyinaa yie!\n\nNnyeso\nNa afei dwom yi bqwosow,\nQbqwosow, qbqwosow;\nNa dwom yi bqwosow den sq\nYesu ayq ade nyinaa yie!\n\nSq xbonsam de n'agyan no\nBqwowx me koma mu a,\nMede 'yi bqpam n'abufuw:\nYesu ayq ade nyinaa yie!\n\nNa sq midu 'man pa no mu,\nNa me nsa ka trabea no a,\nMe dwom yi bqwosow den sq,\nYesu ayq ade nyinaa yie!"
+    "songEN": "Afei ayeyi nnwonto mu,\nNa mqkamfo Awurade;\nMe ne 'hotefo bqka sq:\nYesu ayq ade nyinaa yie!\n\nNnyeso\nNa afei dwom yi bqwosow,\nQbqwosow, qbqwosow;\nNa dwom yi bqwosow den sq\nYesu ayq ade nyinaa yie!\n\nSq xbonsam de n'agyan no\nBqwowx me koma mu a,\nMede 'yi bqpam n'abufuw:\nYesu ayq ade nyinaa yie!\n\nNa sq midu 'man pa no mu,\nNa me nsa ka trabea no a,\nMe dwom yi bqwosow den sq,\nYesu ayq ade nyinaa yie!"
   },
   {
     "number": "N5",
@@ -4285,156 +4285,166 @@
   },
   {
     "number": "N25",
+    "title": "Anigye Da\nDelightful Day",
+    "songEN": "Anigye da, s'ro akyεde pa,\nOnipa nyaa no Eden kan,\nWɔde Nyame Homeda mae,\nWɔahyira N'abɔde nyinaa\n\nɔhen' adεbɔ ho nkaede,\nAkwaaba sε woasan aba;\nY'abom reyi No ayε yi,\nDɔ ne dεw hyε yεn koma ma."
+  },
+  {
+    "number": "N26",
+    "title": "Akwaaba, xhom da\nWelcome,  Welcome Day",
+    "songEN": "Akwaaba, xhom da,\nWxde kyqq adasa kwa,\nMigye w´xdwo koma yim,\nSq hann a efi s´ro hy´rqn.\n\nXdqw ne xhome da,\nWo mmere resen brqoo yi;\nDwudwo yqn haw ne mmusu\nKosi se yqn brq bqsa\n\nDa kronkron, wo bo yq den.\nAyeyi ne mpaebx da,\nDa a qky’re nkwasea nyansa,\nWo nhy’ra dxxso dqn ara\n\nAkwaaba, xhome da,\nNyame tumi ka wo ho;\nNhira nka wo mm’re kronkron\nMa me koma a qretwen."
+  },
+  {
+    "number": "N27",
     "title": "Nusu Rennye Me Nkwa\nWeeping Will Not",
     "songEN": "Nusu rennye me nkwa\nMe nusu sen dqn ara-a\nEntumi ntu me suro,\nEntumi nyi me bxne\nNusu rennye me nkwa.\n\nNnyeso\nYesu sui, n'Owu maa me;\nYesu brqe wx dua no so;\nYesu rema mahome;\n'No nko n'Xbqgye me.\n\nMe nnwuma rennye me,\nNnwuma pá a mitumi yq,\nM'adwempa ne me nkate,\nRentumi nsakra me kra;\nMe nnwuma rennye me.\n\nXtwentwqn rennye me,\nMabrq, midi fx, may'ra,\nMete ahummxb'rx nne;\nMetwqn a, qnde mewu;\nXtwentwqn rennye me.\n\nKristom' gyidi gye me;\nMetwere Wo Ba sufo,\nMetwere N'adwuma no;\n'W'ra, boa ma menkx Ne nsam':\nKristom; gyidi gye me."
   },
   {
-    "number": "N26",
+    "number": "N28",
     "title": "'Wura, Kasa W'akoa Retie\nMaster Speak Thy",
     "songEN": "'Wura, kasa W'akoa retie\nRetwqn Wo dom asqm no;\nMe kxn dx W'aw'rqkyekye nne;\n'Wura, ma mente seesei\nAw'rade, meretie Wo\nDqn na Wowx ka ky'rq me?\n\n'Wura, bx me din kasa ky'rqm',\nMa minhu sq Wode me!\nKasa ma me ho nyq hare\nNnantew den ahofadim'\nWx xbo no nwini mu,\nNea 'Guanhwqfo no ky'rq kwan.\n\n'Wura, kasa! sq b'rqoo mpo a\nMa mente Wo nne ansa;\n'Wura, kasa 'fisq Wunim\nMe koma 'pqde nyinaa;\nWunim nea 'hia me nyinaa;\nKasa! na hyira me nnq.\n\n'Wura, kasa! yq me krado;\nSq mete Wo nne ampáa\nMa memfa 'setie ne daa dqw\nNni W'asqm biara akyi;\nAw'rade meretie Wo;\nO 'Wura, kasa ky'rq me."
   },
   {
-    "number": "N27",
+    "number": "N29",
     "title": "Sq Xbra Asorxkye De Wo Rekx\nWhen Upon Life's",
     "songEN": "Sq xbra asorxkye de wo rekx\nWo bo tu, dwen sq ne nyinaa ayerá a\nKan wo nhyira pii no,\nbobx din nk'ro nk'ro,\nNa nea Nyame ayq bqyq wo nwanwa.\n\nNnyeso\nKan wo nhyira, bobx din nk'ro nk'ro;\nKan wo nhyira hwq nea Nyamč ayq;\nKan wo nhyira, bobx din nk'ro nk'ro,\nKan wo nhyira pii no,\nhwq nea Nyamč ayq.\n\nSq wohwq binom asase ne siká a\nKae sq Kristo ahyqw' ahonya ho bx;\nKan wo nhyira pii no, sika ntumi ntx\nWo soro akatua ne wo s'ro fie no.\n\nEnti wo ko no yq kqsčoo, ketewáoo,\nMma wo bo nntu, Nyame hwq ne nyinaa so,\nKan wo nhyira pii no, abxfo bqhwqw',\nAkyekye wo werq w'akwantu yi mu."
   },
   {
-    "number": "N28",
+    "number": "N30",
     "title": "Tie, Me Kra Tie, Abxfo Nnwom Rewosow\nHark, Hark, My",
     "songEN": "Tie, me kra tie, abxfo nnwom rewosow\nAsase so mfuw so ne mpoano nso!\nNsqm a wxde 'sanku rqbx no yq dqw,\nNkwa fof'ro a bxne remfram' ho nsqm!\n\nNnyeso\nYesu abxfo, Hann abxfo\nReto dwom ma sum mu\n'Kwantufo 'kwaaba.\n\nYqkx anim, yqte sq wxreto sq:\n\"Mommra 'kra 'brqfo, Yesu se mommra\";\nNnwom no dqw gyigye wx sum mu baabiara,\nAsqmpan' ho dwom no de yqn kx fie.\n\nEgyigye aky'riky'ri sq anwumm're dxn;\nYesu nne gyigye 'sase ne po so,\nNa akra abrqfo mpempem dan wxn ho,\nBa Wo nkyqn, Oguanhwqfo yamyefo.\n\nAbxfo! monto dwom, na monkx so nwqn,\nMonto soro nnwom no bi nkyerq yqn;\nKosi sq 'nigye besi su ananmu,\nNa xkra sum bqdan adekyee dx."
   },
   {
-    "number": "N29",
+    "number": "N31",
     "title": "Wxagyem' Yesu Basa So\nSafe In The Arms of Jesus",
     "songEN": "Wxagyem' Yesu basa so, Wxagyem' Ne koko mu;\nNe dx nwini ase ha Na me kra nya home.\nTie! qyq abxfo nne, Refrq me nnwonto mu,\n'Nuonyam asase no so Kristalo pō agya hx.\n\nNnyeso\nWxagyem' Yesu basa so,\nWxagyam' Ne koko mu,\nNe dx nwini ase ha,\nNa me kra nya home.\n\nWxagyam' Yesu basa so, Wxagyam' afi haw mu;\nWxagyem' wiase sxhwq mu, Bxne ntum' nhaw me hx,\nWxagyem' afi 'w'rqhow mu. M'akyinnye ne surom';\nAka sxhwq kakra bi, Ne nusu kakra nso.\n\nMe koma guankxbea pa, Yesu awu amam';\nTete Bo no so na daa M'ahotoso bqtra.\nMa mentwqn 'ha boasetxm' Kosi sq sum betwam;\nNa adekyee apue wx Sika m-ponao hx."
   },
   {
-    "number": "N30",
+    "number": "N32",
     "title": "Ehu Ma Me Gyidi Dwo\nWhen I Fear My Faith",
     "songEN": "Ehu ma me gyidi dwo,\nKristo sx me mu;\nXtamfo hyq me so a,\nOtum' sx me mu.\n\nNnyeso\nXbqsx me mu,\nXbqsx me mu,\n'Fisq m'Agyenkwa dx me,\nXbqsx me mu.\n\nSq mintumi nnyina a,\nXbqsx me mu;\nMe dx no ano taa dwo,\nXbqsx me mu.\n\nObu me aboxdenne\nXbqsx me mu;\n'Gyidifo ne N'anigye,\nXbqsx me mu.\n\nXremma me kra nyera,\nKristo sx me mu,\nWatx me aboxden pa,\nXbqsx me mu."
   },
   {
-    "number": "N31",
+    "number": "N33",
     "title": "Nyan W'adwuma, 'Wura!\nRevive Thy Work",
     "songEN": "Nyan W'adwuma, 'Wura!\nMa w'ahotefo nhuW'!\nFa tum' kasa ky'rq kra biara,\nNa ma Wo nk'rxfo nte!\n\nNnyeso\nNyan W'adwuma, 'Wura!\nB'rč a yqakoto Wo yi;\nSian, O, Domfo Aw'rade sian;\nBehyira yqn seesei.\n\nNyan W'adwuma, 'Wura!\nMa Wo din nyq kqse!\nWo dx nnqre sq 'gyaframa\nWx koma biara mu.\n\nNyan W'adwuma, 'Wura!\nNhyira nka W'asqm no!\nMa wxmfa gyidi amapa\nNte Wo nokwar' kronn no!\n\nNyan W'adwuma, 'Wura!\nMa yqn Pentekost nhy'ra,\nWo nko na 'nuounyam yq Wo de!\n'W'ra, ma nhy'ra nyq yqn de!"
   },
   {
-    "number": "N32",
+    "number": "N34",
     "title": "Hyan, O Awurade, Sq Tete Hx'\nAwake O Lord",
     "songEN": "Nyan, O Awurade, sq tete hx'\nSian, O Honhom, W'ahoxden ne tumim';\nYenniW' nti, yqn koma ayq nwini,\nNa y'adwen nhu kwan yie nkx hann no ho.\n\nAkyinnye adxxso, na ma ennyae!\nSuro wx yqn mu, na dwudwo ano!\nDan yqn mu ap'rep're no asomdwoe!\nNsakrae rekx so: má qnyq nsakrae pa!\n\nQnyq nyansa tit'riw na ehia yqn,\nEwon nyansá a Woahy'ra so bo yq den:\nQyq xpq ne tum' a wxde dx;\nNe hų a adwen' behu sq Nyame bqn.\n\nMa yqnyq sqnea yqn din no te pq;\nMa mpae nyq mpae, na yeyi mfi komam;\nGye yqn fi nkontompo nsam, Aw'rade,\nNa ma yqn nsqm ne nneyqe nso nkx pq."
   },
   {
-    "number": "N33",
+    "number": "N35",
     "title": "Nea Mewx Biara\nJust Where I Am",
     "songEN": "Nea mewx biara, ma menyq\nNokwar' dansefo mmaW' 'Wura;\nB'rč a binom rep're dibea yi,\nWura ma minni nokwar' 'ha.\n\nNea mewx yi, kwan nom' yq yaw,\nNanso Wobqn nti eyč ara;\nWxn a wxtwer' Wo nya 'home-\nO, hyq me den ma menyq komm!\n\nSq Woky'rq me kwan kx aky'ri,\nNea soro hann bi nhy'rqn hx a,\nMa menkxka Kristo ho nsqm\nNa mensa wxn amanehun'.\n\nSq nso Woka sq mentra fič a,\nMa wxmfa me nsiesie xkwan\nMma wxn a 'dwuma nti wxagyaw\nWxn fie, nnamfo nč ade nyinaa.\n\nNea mewx yi, O, ma minnye\n'Kra mmxb'rxfo bi mfi bxnem';\n'Wura ma memfa animtew\nNe W'ahoxden mu denhyq nkx."
   },
   {
-    "number": "N34",
+    "number": "N36",
     "title": "Fa W'ahoxden Ny'naa Yq 'Dwuma\nGo Labour On",
     "songEN": "Fa w'ahoxden ny'naa yq 'dwuma,\nFa 'nigye yq w'Agya 'pqde;\nQyq kwan a 'W'ra no faa so;\nQnsq sq N'akoa fa so bi?\n\nYq adwuma; woremm'rq ngu\nFam adehw'rew yq s'ro mfaso:\nSq nnipa ntiew', nnxw', nyiw' ayq a\n'W'ra n' bqkamfo', nnipa yq dqn?\n\n'Dekyee wx hx yi yq 'dwuma;\nWiase 'nadwo sum reba ntqm;\nYq w'adwuma xhare so;\nWxmfa anihaw nnye akra.\n\nKx so, ntx beraw, wqn bx mpae;\nYq 'badwemma, gye akra nkwa;\nFi adi kx wiase mm'rxn so,\nHyq wxn a wxafom kwan bra fie.\n\nMa w'ani nnye w'adwuma yqm';\nXbrq akyi wx xhome;\nWobqte Ayef'rokun' nne\nXdasu mu sq, \"Hwq Maba!\""
   },
   {
-    "number": "N35",
+    "number": "N37",
     "title": "Yesu Wx Adwuma Da W'anim Seesei\nThere's a Work",
     "songEN": "Yesu wx adwuma da w'anim seesei;\nDwuma a 'Wura no ahyehyq amaw';\nYq ntqm yq N'ahyqde, som No nokwarem',\nYesu wx adwuma wo na wobqyq.\n\nNnyeso\nYq 'dwuma daa ma Yesu,\nSom No daa daa, n-hintiw da, tie Kristo;\nSom No dx ne nokwarem',\nYesu wx adwuma, Wo na wobqyq.\n\nYesu wx adwuma, ahobrqasede,\n'Yi ne adwuma a Xpq sq woyq,\nKx nea nnxbae ahoa, na apaafo sua\nYesu wx adwuma wo na wobqyq.\n\nYesu wx adwuma kxgye akra bra,\nKa Ne dom no ky'rq wxn,\nKy'rq wxn wo Hene\nM-pá abaw arfa da, Xbqhyq wo den;\nYesu wx adwuma wo na wobqyq."
   },
   {
-    "number": "N36",
+    "number": "N38",
     "title": "Hena Wx 'Wura Fa?\nWho Is On The Lord's Side",
     "songEN": "Hena wx 'Wura Fa? Hena bqsom No?\nHenanom bqboa No Akxgye akra?\nHena begyaw wiase Atia tamfo no?\nHena wx 'Wura 'fa Somafo wx he?\nWo mmxb'rxhun' frq nti, Wo s'ro dom no\nYqdxm Awurade, Gyefo, yqwx Wo.\n\n'Nyq anuonyam kqse Anna ahenkyqw\nNti na yqkx sa no, To akodwom no;\nN'qyq 'dx a qfrq Kra a 'nti Owui\nNea Kristo frq no no, Sq N'afa gyina.\nWo nkwagye kqse nit, Wo s'ro dom no nti,\nYqdxm Awurade, Gyefo, yqwx Wo.\n\nYesu Woatx yqn de Yqn aye 'henkyqw,\nWoamfa sika anaa Bota n'qtxx yqn,\nMmom W'ankasa mogya! Wode Wo nhy'ra ma\nNea xba Wo n-kyqn Benya 'hofadi.\nWo nkwagye kqse nti, Wo s'ro dom no nti,\nYqdxm Awurade, Gyefo, yqwx Wo.\n\nXko no mu yq den Tamfon' ho yq hu,\nNso Xhen' no dxm de, Obi nni so da.\nYehyia Ne frankaa hō a Nkonimdi di mu!\nNe nokwar' nsesa nti, Nkonim no y'ampa.\nYqde 'nigye ba nti, Wo s'ro dom no nti,\nYqdxm Awurade, Gyefo, yqwx Wo."
   },
   {
-    "number": "N37",
+    "number": "N39",
     "title": "Yesu Refrq Wo Bxkxx Sq Bra Fie\nJesus Is Tenderly",
     "songEN": "Yesu refrq wo bxkxx sq bra fie,\nXrefrq wo, refrq wo nnq;\nDqn nti na wufi xdx hann no ho\nNa worefom kwan kx yi?\n\nNnyeso\nXrefrq wo, refrq wo nnq-\nYesu de nne bxkxx refrq wo,\nRefrq wo nnq.\n\nYesu frq 'brqfo sq xmmehome'\nXrefrq wo, refrq wo nnq:\nFa w'adesoa brq No n'Obehyiraw'\nXrempam wo mfi Ne nkyqn\n\nYesu retwqn wo, O, bra Ne nkyqn nnq;\nXretwqn wo, retwqn wo nnq,\nFa wo bxne bra bqkoto N'anim;\nBra, ntwentwqn wo nan ase.\n\nYesu redi ma wo, O tie Ne nne,\nTie Ne nne nnq, tie Ne nne nnq,\nWxn a wxgye No di ani bqgye:\nKa wo ho na sxre kx."
   },
   {
-    "number": "N38",
+    "number": "N40",
     "title": "Kristo Bqgye Bxn'yqfo!\nSinners Jesus Will Receive",
     "songEN": "Kristo bqgye bxn'yqfo!\nKa xdom nsqm yi kyerq\nWxn a wxafom s`ro kwan so,\nNenam kwa, hwehwe ase.\n\nNnyeso\nTo dwom no, kx so to bio;\nKristo gye nnebxn'yqfo;\nMa nsqm nom' nna hx pefee;\nKristo gye nnebxn'yqfo.\n\nBra na Xbqmaw' home;\nTwere No, N'Asqm tene;\nObeyi bxn' hx koraa;\nKristo gye nnebxn'yqfo.\n\nMe koma mmu me fx bio,\nMe ho atew mm'ra no ho;\nNea Xhoh'ro me bxnen'\nYqq mm'ra no apqde ny'naa.\n\nKristo gye nnebxn'yqfo,\nMe sqq yi nso Xgye me,\nTew me ho nkekae nyinaa.\nDe me ka Ne ho kx s'ro."
   },
   {
-    "number": "N39",
+    "number": "N41",
     "title": "Dqn Na Qpa Me Bxne?\nWhat Can Wash Away",
     "songEN": "Dqn na qpa me bxne?\nMinhu hwee sq Yesu mogya;\nDqn na ema me mu tew?\nMinhu hwee sq Yesu mogya.\n\nNnyeso\nMogya a qhoa me\nHo no bo yq den sq\nMinnim nsuti fof'ro,\nMinhu hwee sq Yesu mogya.\n\nNea qfa m'ahotew ho\nMinhu hwee sq Yesu mogya;\nMa fafiri no ho nso-\nMinhu hwee sq Yesu mogya.\n\nHwee ntumi mpata bxne:\nMinhu hwee sq Yesu mogya:\nMe papayq rentumi;\nMinhu hwee sq Yesu mogya.\n\nMqto anuonyam dwom sq:\nMinhu hwee sq Yesu mogya.\nEyi nti m'ayeyi ni:\nMinhu hwee sq Yesu mogya."
   },
   {
-    "number": "N40",
+    "number": "N42",
     "title": "Nyame Hu 'Patuprq 'Sehwe\nGod Sees The Little",
     "songEN": "Nyame hu 'patuprq 'sehwe\nNe yam hyehye ma no;\nSq Nyame dx nnomaa nkumaá a,\nMinim Xdx me nso.\n\nNnyeso\nXdx me nso, Xdx me nso,\nMinim Xdx me nso;\n'Fisq Xdx nneqma nkumaa,\nMinim Xdx me nso.\n\nOfura sukooko ntama,\nXma ne ho yq huam;\nSq Xdx n-hwiren nkumaá a\nMinim Xdx me nso.\n\nNyame yqq nnomaa ne nhwiren\nNe nneqma nyinaa nso;\nNe werq remfi Ne mmofra,\nMinim Xdx me nso."
   },
   {
-    "number": "N41",
+    "number": "N43",
     "title": "Gyina Nokwar' Asqm So\nStanding By A Purpose",
     "songEN": "Gyina nokwar' asqm so,\nSo Nyame mm'ra mu,\nDi gyidifo no nso ni!\nWxnkamfo Daniel Kuw!\n\nNnyeso\nSi wo bo sq Daniel\nSi wo bo gyina;\nNya botae a ase tim,\nNa yi no adi!\n\nAtumfo pii ayera,\nWxantum' annyina,\nNa wxyq Nyame 'safo\nSq wxfraa Daniel kuwm'!\n\nAberan akqse a\nWxafa nsase yi,\nSq wohyia Daniel kuw a,\nWxbqhwehwe ase.\n\nMa 'nidahx frankaa so,\nDi nkonim kqse!\nDi Satan ne ne dxm so,\nNa teqm ma Daniel kuw!"
   },
   {
-    "number": "N42",
+    "number": "N44",
     "title": "Muntie Nea Ky'rqwsqm Aka Tete No Sq\nHear The Words of Scriptures",
     "songEN": "Muntie nea ky'rqwsqm aka tete no sq:\n\"Momfa ntoso du ny'naa mmra koradanm'\"\nMonyq no kronkronne a qka hx daa,\nNa montwer' Ne bxhyq pa no.\n\nNnyeso\n\"Momfa ntoso du ny'na mm'ra koradanm',\nMonsx Me nhwq: Yehowa n'Ose,\nNa Minhwie n-hyira Memma mo,\nMma qmm'ro so a munnya korabea?\n\nMopq sq muhu Honhom Kronkron tum' no?\n\"Momfa ntoso du ny'naa mm'ra koradanm'\"\nMo ne No nni nkxmmx bere biara mu,\nNa Wama mo bxhyq pa no.\n\nSo b'ribi siq mo ne mo Wura ntam kwan\n\"Momfa ntoso du ny'naa mm'ra koradanm'\"\nMomfa mmra sqnea Wahyq bx no ara,\nNa Xbqma mo nhyira pa.\n\nMunhim nnwom pa ma ennyigye wx ewim,\nMode ntoso du aba xdan mu'i';\nHaleluya fi yqn koma mu sxre,\n'Fisq yqanya bxhyq pa no."
   },
   {
-    "number": "N43",
+    "number": "N45",
     "title": "Nyamè a, Woyq Anwanwade!\nGreat God Of Wonder",
     "songEN": "Nyamè a, Woyq anwanwade!\nW'akwan ky'rq Wo s'ro abodin;\nNanso Wo dom faf'ri pii no\nNy'rqn b'ro W'anwanwade ny'naa so\nHena n'xde bxn' fir sq Wo?\nHena n'xwx 'dom pii sq Wo?\n\nYqde dqw a enni kabea\nGye yqn Nyame nkyqn fafiri,\nAmumxyq biaram' faf'ri\nFaf'ri a Yesu mogya atx:\nHena n'xde bxn' fir sq Wo?\nHena n'xwx 'dom pii sq Wo?"
   },
   {
-    "number": "N44",
+    "number": "N46",
     "title": "Mqma Moayq Nnipa Yifo\nFishers Of Men",
     "songEN": "Mqma moayq nnipa yifo,\nNnipa yifo, nnipa yifo,\nMqma moayq nnipa yifo,\nSq mudi M'akyė a.\nSq mudi M'akyė a,\nSq mudi M'akyė a!\nMqma moayq nnipa yifo,\nSq mudi M'akyė a.\n\nMqma moayq 'sqmpakafo,\n'Sqmpakafo, 'sqmpakafo,\nMqma moayq 'sqmpakafo,\nSq mudi M'akyė a,\nSq mudi M'akyė a\nSq mudi M'akyė a!\nMqma moayq 'sqmpakafo,\nSq mudi M'akyė a."
   },
   {
-    "number": "N45",
+    "number": "N47",
     "title": "Bx M-pae Brqoo Anxpa B're\nWhisper a Prayer",
     "songEN": "Nnyeso\nYesu tumi ba anxpa\nYesu tumi ba 'wia\nYesu tumi ba anwumm're,\nEnti maw' kommam' ntew.\n\nBx m-pae brqoo anxpa b're,\nBx m-pae brqōo awia;\nBx m-pae brqoo anwummere,\nNa wo kamam' atew.\nNyame tie m-pae anxpa,\nNyame tie mpae awia,\nNyame tie mpae anwummere,\nMa wo koma mu tew."
   },
   {
-    "number": "N46",
+    "number": "N48",
     "title": "Medi, Medi, Medi Yesu Akyi\nFollow, Follow, I Will",
     "songEN": "Medi, medi, medi Yesu Akyi,\nBaabiara, daa nyinaa, medi N'akyė ara,\nMedi, medi, medi Yesu akyi;\nDaa, daa nyinaa, medi\nN'akyi 'kwan nyinaam!"
   },
   {
-    "number": "N47",
+    "number": "N49",
     "title": "Qsq Sq Obiara Hu\nEverybody Ought To Know",
     "songEN": "Qsq sq obiara hu; qsq sq obiara hu,\nQsq sq obiara hu, Nea Yesu yq!\nXne Xbon mu Sukookoo,\nXnč Adekyee Nsoromma,\nXne mpemdu mu 'Hoxfqfo,\nQsq sq obiara hu!"
   },
   {
-    "number": "N48",
+    "number": "N50",
     "title": "Sq Xfrq Mč a Mqgye No So\nWhen He Calls Me",
     "songEN": "Sq Xfrq mč a mqgye No so,\nSq Xfrq mč a, mqgye No so,\nSq Xfrq mč a, mqgye No so,\nMegy'na baabi matie me din.\nMegy'na baabi matie;\nMegy'na baabi matie\nMegy'na baabi matie me din\nMegy'na baabi matie;\nMegy'na baabi matie\nMegy'na baabi matie me din."
   },
   {
-    "number": "N49",
+    "number": "N51",
     "title": "Qsq Sq Obiara Dx Yesu\nEverybody Must Love Jesus",
     "songEN": "Qsq sq obiara dx Yesu\nYesu, Yesu;\nOwui 'sqnnua so gyee yqn fii bxnem',\nQsq sq obiara dx Yesu."
   },
   {
-    "number": "N50",
+    "number": "N52",
     "title": "Ma Me Ngo Wx Me Kaneam'\nGive Me Oil In My Lamp",
     "songEN": "Ma me ngo wx me kaneam'.\nMa menhyerqn,\nMa me ngo wx me kaneam', mesrq;\nMa me ngo wx me kaneam',\nMa, menhyerqn,\nMenhyerqn nkosi s'ade bqkye!\nTo Hosana, To Hosana,\nTo Hosana, ma 'hene mu Hen',\nTo Hosana, To Hosana,\nTo Hosana, ma Hene."
   },
   {
-    "number": "N51",
+    "number": "N53",
     "title": "M'ani Agye Aseky'rq Ne Sq\nI'm So Happy",
     "songEN": "M'ani agye aseky'rq ne sq;\nYesų ayi m'adesoa nyinaa kx;\nAgei mqto dwom mmere nyinaa\nYesų ayi m'adesoa hyq me koma so,\nKan me bxn' adesoa hyq me koma so,\nYesu yii me bxne maa me asomdwoee.\nAfei mqto dwom mmere nyinaa,\nYesu ayi m'adesoa nyinaa kx koraa!\nYesu ayi m'adesoa nyinaa kx-\nM'ani agye!\nYesu ayi m'adesoa nyinaa kx!"
   },
   {
-    "number": "N52",
+    "number": "N54",
     "title": "Da K'ro Ohuu Me\nOne Day He Found Me",
     "songEN": "Da k'ro Ohuu me,\nGalilea Bar'ma no,\nDa k'ro Xgye me nkwa,\nn'Xmaam' ahofadi,\nAfei m'anigye,\nme koma atx no\nDak'ro Ohuu me,\nGalilea Bar'ma no!"
   },
   {
-    "number": "N53",
+    "number": "N55",
     "title": "'W'ra Bra Bqkanyan Yqn\nLord Send A Revival",
     "songEN": "'W'ra, bra bqkanyan yqn,\n'W'ra, bra bqkanyan yqn;\n'W'ra, bra bqkanyan yqn;\nNa fa fi m'ara so."
   },
   {
-    "number": "N54",
+    "number": "N56",
     "title": "Tow Gu, Tow' Nnesoa Ny'naa Gu\nRoll, Roll, Your Burdens Away",
     "songEN": "Tow gu, tow' nnesoa ny'naa gu\nTow gu, tow' nnesoa ny'naa gu\nNa Yesų ahyq bx, s'Obeyi ne ny'naa hx;\nTow gu, tow' nnesoa ny'naa gu!"
   },
   {
-    "number": "N55",
+    "number": "N57",
     "title": "Nneqma Nyinaa Yqq Nwanwa\nEverything Is Wonderful",
     "songEN": "Nneqma nyinaa yqq nwanwa,\nYqq nwanwa, yqq nwanwa,\nNneqma nyinaa yqq nwanwa,\nFii dá a Yesu gyee me\nFii dá a Yesu gyee me\nFii dá a Yesu gyee me (O, yiw!)\nNneqma nyinaa yqq nwanwa,\nFii dá a Yesu gyee me."
   },
