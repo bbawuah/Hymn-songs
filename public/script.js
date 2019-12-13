@@ -10,6 +10,14 @@ const title = document.querySelector('.title')
 const prevBTN = document.querySelectorAll('.prev');
 const nextBTN = document.querySelectorAll('.next');
 const navs = document.querySelectorAll('nav');
+const fontBtn = document.querySelectorAll('.font-btn');
+const fontBall = document.querySelector('.font-ball');
+const fontNav = document.querySelector('.font-section');
+
+let fontBallPos = 40;
+let titleSize = 2;
+let textSize = 1.4;
+let subSize = 1.3;
 
 let songIndex;
 
@@ -19,6 +27,9 @@ btn.addEventListener('click', (e) => {
   e.preventDefault();
 
   subtitle.forEach(title => title.style.visibility = 'hidden');
+
+  fontNav.style.visibility = 'visible';
+  fontNav.style.opacity = '1';
 
   title.textContent = ''
   loading.style.visibility = 'visible';
@@ -60,8 +71,8 @@ btn.addEventListener('click', (e) => {
             hymnID.innerText = data[i].number;
             // A B D E ε F H I J K L M N Ŋ O ɔ P R S T U V W Y Z
             // a b d e ε f g h i j k l m n ŋ o ɔ p r s t u v w y z
-          
-            let twiHymn = data[i].songEN.replace(/q|Q/g,'ε')  
+
+            let twiHymn = data[i].songEN.replace(/q|Q/g, 'ε')
             output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[i].songTWI;
             checkEng(data, i);
@@ -124,7 +135,7 @@ nextBTN.forEach((btn) => {
 
             let twiTitle = data[songIndex].title.replace(/q|Q/g, 'ε');
             title.innerText = twiTitle.replace(/x|X/g, 'ɔ');
-            let twiHymn = data[songIndex].songEN.replace(/q|Q/g,'ε')  
+            let twiHymn = data[songIndex].songEN.replace(/q|Q/g, 'ε')
             output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[songIndex].songTWI;
             checkEng(data, songIndex);
@@ -170,12 +181,7 @@ prevBTN.forEach((btn) => {
 
     let hymnID = input.value.toUpperCase().replace(/ /g, "");
 
-
-
-
     setTimeout(() => {
-
-
       fetch('/json/hymns.json')
         .then(response => response.json())
         .then((data) => {
@@ -197,7 +203,7 @@ prevBTN.forEach((btn) => {
             let twiTitle = data[songIndex].title.replace(/q|Q/g, 'ε');
             title.innerText = twiTitle.replace(/x|X/g, 'ɔ');
 
-            let twiHymn = data[songIndex].songEN.replace(/q|Q/g,'ε')  
+            let twiHymn = data[songIndex].songEN.replace(/q|Q/g, 'ε')
             output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
             output[1].innerText = data[songIndex].songTWI;
             checkEng(data, songIndex);
@@ -212,9 +218,6 @@ prevBTN.forEach((btn) => {
             output[1].innerText = '';
             output[0].innerText = 'No hymnal found..';
           }
-
-
-
         })
         .catch(error => console.error(error));
 
@@ -223,6 +226,63 @@ prevBTN.forEach((btn) => {
 
 })
 
+
+fontBtn[0].addEventListener('click', () => {
+  console.log('Clicked on minus button!');
+  if (fontBallPos > 0) {
+    titleSize = titleSize - 0.3;
+    title.style.fontSize = `${titleSize}rem`;
+
+    textSize = textSize - 0.3;
+    output.forEach((text) => {
+      text.style.fontSize = `${textSize}rem`;
+    })
+
+    subSize = subSize - 0.3;
+    subtitle.forEach((sub) => {
+      sub.style.fontSize = `${subSize}rem`;
+    })
+
+    fontBtn[1].style.background = '#702459';
+    fontBallPos = fontBallPos - 20;
+    fontBall.style.left = `${fontBallPos}%`;
+    console.log(fontBallPos)
+
+  }
+
+  if (fontBallPos === 0) {
+    fontBtn[0].style.background = '#E2E8F0';
+
+  }
+
+})
+
+fontBtn[1].addEventListener('click', () => {
+  if (fontBallPos < 80) {
+    titleSize = titleSize + 0.3;
+    title.style.fontSize = `${titleSize}rem`;
+
+    textSize = textSize + 0.3;
+    output.forEach((text) => {
+      text.style.fontSize = `${textSize}rem`;
+    })
+
+    subSize = subSize + 0.3;
+    subtitle.forEach((sub) => {
+      sub.style.fontSize = `${subSize}rem`;
+    })
+
+    fontBtn[0].style.background = '#702459';
+    fontBallPos = fontBallPos + 20;
+    fontBall.style.left = `${fontBallPos}%`;
+    console.log(fontBallPos)
+  }
+
+  if (fontBallPos === 80) {
+    fontBtn[1].style.background = '#E2E8F0';
+  }
+  console.log('Clicked on plus button')
+})
 
 function checkEng(arr, index) {
   if (arr[index].songTWI === undefined) {

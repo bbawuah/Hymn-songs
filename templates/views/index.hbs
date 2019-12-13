@@ -16,7 +16,6 @@
 </header>
 
 <body class="body-animation">
-
   <main>
     <section class="grid">
 
@@ -24,10 +23,21 @@
         <form action="">
           <p>Find your favorite hymnal</p>
           <label for="Hymn">Hymn
-            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" placeholder="1-694, N1-N55 and NG1-NG20" required>
+            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" placeholder="1-694, N1-N55 and NG1-NG20"
+              required>
           </label>
           <button type="button">Search</button>
         </form>
+        <div class="font-section">
+          <p id="font-title">Zoom in/out</p>
+          <div class="font-nav">
+            <button class="font-btn">-</button>
+            <div class="font-bar">
+              <div class="font-ball"></div>
+            </div>
+            <button class="font-btn">+</button>
+          </div>
+        </div>
       </section>
 
       <section>
