@@ -63,11 +63,15 @@ section[class] section>p {
 section[class] section  #font-title{
   display: block;
   text-align: center;
+  width: auto;
 }
 
 .font-section{
+  display: grid;
+  align-items: center;
   visibility: hidden;
   opacity: 0;
+  width: 100%;
 }
 
 .font-nav{

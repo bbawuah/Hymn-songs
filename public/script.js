@@ -243,7 +243,7 @@ fontBtn[0].addEventListener('click', () => {
       sub.style.fontSize = `${subSize}rem`;
     })
 
-    fontBtn[1].style.background = '#702459';
+    fontBtn[1].style.background = '#B83280';
     fontBallPos = fontBallPos - 20;
     fontBall.style.left = `${fontBallPos}%`;
     console.log(fontBallPos)
@@ -272,7 +272,7 @@ fontBtn[1].addEventListener('click', () => {
       sub.style.fontSize = `${subSize}rem`;
     })
 
-    fontBtn[0].style.background = '#702459';
+    fontBtn[0].style.background = '#B83280';
     fontBallPos = fontBallPos + 20;
     fontBall.style.left = `${fontBallPos}%`;
     console.log(fontBallPos)
