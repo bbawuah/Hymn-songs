@@ -47,6 +47,7 @@ const getSong = (id) => {
   // searchList.innerHTML = '';
   searchList.innerHTML = `<li onClick="getSong()" class="active-list-item" value="${event.target.value.toString()}"> ${event.target.innerHTML}</li>`;
   input.value = id;
+  window.scrollTo(0, 0)
 
 }
 
