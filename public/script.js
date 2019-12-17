@@ -29,7 +29,7 @@ const searchHymnals = async getHymnals => {
 
 
   let matches = data.filter(hymn => {
-    const regex = new RegExp(`^${getHymnals}`, 'gi');
+    const regex = new RegExp(getHymnals, 'gi');
     return hymn.number.match(regex) || hymn.title.match(regex);
   })
 
