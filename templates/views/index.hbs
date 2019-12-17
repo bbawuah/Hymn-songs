@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.ico"/>
   <title>Hymnal app</title>
 </head>
 {{!-- This application is made by Brian Bawuah (www.brianbawuah.com) --}}
@@ -23,7 +24,7 @@
         <form action="">
           <p>Find your favorite hymnal</p>
           <label for="Hymn">
-            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" placeholder="1-694, N1-N55 and NG1-NG20"
+            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" autocomplete="off" placeholder="1-694, N1-N55 and NG1-NG20"
               required>
           </label>
           <ul class="suggestions">
