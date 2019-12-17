@@ -1,6 +1,4 @@
 
-
-
 const btn = document.querySelector('button');
 const input = document.querySelector('#hymn');
 const output = document.querySelectorAll('.text');
@@ -13,6 +11,7 @@ const navs = document.querySelectorAll('nav');
 const fontBtn = document.querySelectorAll('.font-btn');
 const fontBall = document.querySelector('.font-ball');
 const fontNav = document.querySelector('.font-section');
+const searchList = document.querySelector('.suggestions')
 
 let fontBallPos = 40;
 let titleSize = 2;
@@ -22,12 +21,61 @@ let subSize = 1.3;
 let songIndex;
 
 
+const hymnals = [];
+
+const searchHymnals = async getHymnals => {
+  const res = await fetch('/json/hymns.json');
+  const data = await res.json();
+
+
+  let matches = data.filter(hymn => {
+    const regex = new RegExp(`^${getHymnals}`, 'gi');
+    return hymn.number.match(regex) || hymn.title.match(regex);
+  })
+
+  if (getHymnals.length === 0 || matches.length === 0) {
+    matches = [];
+    searchList.innerHTML = '';
+  }
+
+
+  outputHtml(matches);
+}
+
+
+const getSong = (id) => {
+  // searchList.innerHTML = '';
+  searchList.innerHTML = `<li onClick="getSong()" class="active-list-item" value="${event.target.value}"> ${event.target.innerHTML}</li>`;
+  input.value = event.target.value;
+
+}
+
+
+const outputHtml = matches => {
+
+  if (matches.length > 0) {
+    const html = matches.map(match => `
+    <li onClick="getSong()" value="${match.number}"><span class="hymn-nr">${match.number}</span>${match.title.replace(/q|Q/g, 'ε').replace(/x|X/g, 'ɔ').replace(/\n/g, ' - ')}</li>
+    
+    `).join('');
+
+
+
+
+    searchList.innerHTML = html;
+    // console.log(html)
+  }
+
+}
+input.addEventListener('input', () => searchHymnals(input.value));
+
+
 
 btn.addEventListener('click', (e) => {
   e.preventDefault();
 
   subtitle.forEach(title => title.style.visibility = 'hidden');
-
+  searchList.innerHTML = '';
   fontNav.style.visibility = 'visible';
   fontNav.style.opacity = '1';
 
@@ -96,7 +144,6 @@ btn.addEventListener('click', (e) => {
 })
 
 nextBTN.forEach((btn) => {
-
   btn.addEventListener('click', (e) => {
     e.preventDefault();
 
@@ -109,12 +156,11 @@ nextBTN.forEach((btn) => {
       nav.style.visibility = 'hidden'
       nav.style.opacity = '0'
     });
+
     let hymnID = input.value.toUpperCase().replace(/ /g, "");
 
 
     setTimeout(() => {
-
-
       fetch('/json/hymns.json')
         .then(response => response.json())
         .then((data) => {
@@ -283,6 +329,11 @@ fontBtn[1].addEventListener('click', () => {
   }
   console.log('Clicked on plus button')
 })
+
+
+
+
+
 
 function checkEng(arr, index) {
   if (arr[index].songTWI === undefined) {
