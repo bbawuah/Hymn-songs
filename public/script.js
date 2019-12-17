@@ -45,8 +45,8 @@ const searchHymnals = async getHymnals => {
 
 const getSong = (id) => {
   // searchList.innerHTML = '';
-  searchList.innerHTML = `<li onClick="getSong()" class="active-list-item" value="${event.target.value}"> ${event.target.innerHTML}</li>`;
-  input.value = event.target.value;
+  searchList.innerHTML = `<li onClick="getSong()" class="active-list-item" value="${event.target.value.toString()}"> ${event.target.innerHTML}</li>`;
+  input.value = id;
 
 }
 
@@ -55,7 +55,7 @@ const outputHtml = matches => {
 
   if (matches.length > 0) {
     const html = matches.map(match => `
-    <li onClick="getSong()" value="${match.number}"><span class="hymn-nr">${match.number}</span>${match.title.replace(/q|Q/g, 'ε').replace(/x|X/g, 'ɔ').replace(/\n/g, ' - ')}</li>
+    <li onClick="getSong('${match.number}')"><span class="hymn-nr">${match.number}</span>${match.title.replace(/q|Q/g, 'ε').replace(/x|X/g, 'ɔ').replace(/\n/g, ' - ')}</li>
     
     `).join('');
 
