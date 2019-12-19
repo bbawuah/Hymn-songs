@@ -275,7 +275,7 @@ prevBTN.forEach((btn) => {
 
 
 fontBtn[0].addEventListener('click', () => {
-  console.log('Clicked on minus button!');
+ 
   if (fontBallPos > 0) {
     titleSize = titleSize - 0.3;
     title.style.fontSize = `${titleSize}rem`;
@@ -293,7 +293,7 @@ fontBtn[0].addEventListener('click', () => {
     fontBtn[1].style.background = '#B83280';
     fontBallPos = fontBallPos - 20;
     fontBall.style.left = `${fontBallPos}%`;
-    console.log(fontBallPos)
+    
 
   }
 
@@ -322,13 +322,13 @@ fontBtn[1].addEventListener('click', () => {
     fontBtn[0].style.background = '#B83280';
     fontBallPos = fontBallPos + 20;
     fontBall.style.left = `${fontBallPos}%`;
-    console.log(fontBallPos)
+  
   }
 
   if (fontBallPos === 80) {
     fontBtn[1].style.background = '#E2E8F0';
   }
-  console.log('Clicked on plus button')
+
 })
 
 
