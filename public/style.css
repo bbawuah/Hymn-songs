@@ -387,7 +387,7 @@ footer p {
 }
 
 .about{
-  background: #edf2f7;
+  background: #ffffff;
   display: grid;
   grid-template-rows: min-content 100% min-content;
 }
