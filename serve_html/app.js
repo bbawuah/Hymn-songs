@@ -19,10 +19,18 @@ app.use(express.static(publicDirectoryPath));
 
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'My app'
+    title: 'Advent hymnal',
+    message: "Lighten someone's day with this application!"
   })
 })
 
+
+app.get('/about', (req, res) => {
+  res.render('about', {
+    title: 'Advent hymnal',
+    message: "Lighten someone's day with this application!"
+  })
+})
 
 
 

@@ -7,15 +7,11 @@
   <meta name="Description" content="Hymnal application created by Edward Osei and Brian Bawuah">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="image/png" href="/img/favicon.ico"/>
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.ico" />
   <title>Advent hymnal</title>
 </head>
 {{!-- This application is made by Edward Osei and Brian Bawuah  --}}
-<header>
-  <a href="/">
-    <h1>Advent hymnal</h1>
-  </a>
-</header>
+{{>header}}
 
 <body class="body-animation">
   <main>
@@ -25,8 +21,8 @@
         <form action="">
           <p>Find your favorite hymn</p>
           <label for="hymn">
-            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" autocomplete="off" placeholder="1-694, N1-N55 and NG1-NG20"
-              required>
+            <input type="text" name="hymn" id="hymn" class="hymn-id" min="1" autocomplete="off"
+              placeholder="1-694, N1-N55 and NG1-NG20" required>
           </label>
           <ul class="suggestions">
           </ul>
@@ -64,9 +60,7 @@
       </section>
     </section>
   </main>
-  <footer>
-    <p>Lighten someone's day with this application!</p>
-  </footer>
+  {{>footer}}
   <script src="script.js"></script>
 </body>
 

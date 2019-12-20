@@ -385,3 +385,17 @@ footer p {
     margin-right: 0.5em;
   }
 }
+
+.about{
+  background: #edf2f7;
+  display: grid;
+  grid-template-rows: min-content 100% min-content;
+}
+
+.about em{
+  color: #D53F8C;
+}
+
+.about .grid-about{
+  background: none;
+}
