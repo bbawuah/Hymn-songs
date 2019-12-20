@@ -23,6 +23,11 @@ html, body {
   line-height: 1.35;
 }
 
+body{
+  display: grid;
+  grid-template-rows: min-content 100% min-content;
+}
+
 h1 {
   font-size: 2.441rem;
 }
@@ -389,8 +394,7 @@ footer p {
 
 .about{
   background: #ffffff;
-  display: grid;
-  grid-template-rows: min-content 100% min-content;
+ 
 }
 
 .about em{
