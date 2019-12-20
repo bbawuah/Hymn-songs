@@ -46,7 +46,7 @@ p {
 }
 
 a, header a:visited {
-  color: #D53F8C;
+  color: #1a202c;
   text-decoration: none;
   padding: 2vmax;
 }
@@ -295,6 +295,7 @@ form button:active::before {
 
 form p {
   padding-bottom: 1vmax;
+  font-weight: bolder;
 }
 
 section[class] section:nth-child(2) {
