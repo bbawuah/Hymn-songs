@@ -169,11 +169,15 @@ nextBTN.forEach((btn) => {
           songIndex++;
 
           if (data[songIndex]) {
+            
 
             navs.forEach((nav) => {
               nav.style.visibility = 'visible'
               nav.style.opacity = '1'
             });
+
+            window.scrollTo(0, 0)
+
 
             input.value = data[songIndex].number;
             subtitle.forEach(title => title.style.visibility = 'visible');
@@ -241,6 +245,8 @@ prevBTN.forEach((btn) => {
               nav.style.visibility = 'visible'
               nav.style.opacity = '1'
             });
+
+            window.scrollTo(0, 0)
 
             input.value = data[songIndex].number;
             subtitle.forEach(title => title.style.visibility = 'visible');
