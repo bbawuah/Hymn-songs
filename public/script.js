@@ -123,6 +123,16 @@ btn.addEventListener('click', (e) => {
 
             let twiHymn = data[i].songEN.replace(/q|Q/g, 'ε')
             output[0].innerText = twiHymn.replace(/x|X/g, 'ɔ')
+            
+            
+            // .replace(/\n\n/g, (() => {
+            //   var number = 1;
+            //   number++
+            //   return () => {
+            //     return '\n\n' +number;
+            //   }
+            // })())
+
             output[1].innerText = data[i].songTWI;
             checkEng(data, i);
 
@@ -296,7 +306,7 @@ fontBtn[0].addEventListener('click', () => {
       sub.style.fontSize = `${subSize}rem`;
     })
 
-    fontBtn[1].style.background = '#B83280';
+    fontBtn[1].style.background = '#2A4365';
     fontBallPos = fontBallPos - 20;
     fontBall.style.left = `${fontBallPos}%`;
     
@@ -304,7 +314,7 @@ fontBtn[0].addEventListener('click', () => {
   }
 
   if (fontBallPos === 0) {
-    fontBtn[0].style.background = '#E2E8F0';
+    fontBtn[0].style.background = '#2A4365';
 
   }
 
@@ -325,14 +335,14 @@ fontBtn[1].addEventListener('click', () => {
       sub.style.fontSize = `${subSize}rem`;
     })
 
-    fontBtn[0].style.background = '#B83280';
+    fontBtn[0].style.background = '#2A4365';
     fontBallPos = fontBallPos + 20;
     fontBall.style.left = `${fontBallPos}%`;
   
   }
 
   if (fontBallPos === 80) {
-    fontBtn[1].style.background = '#E2E8F0';
+    fontBtn[1].style.background = '#2A4365';
   }
 
 })

@@ -90,7 +90,7 @@ section[class] section  #font-title{
 .font-btn{
   width: 2em;
   height: 2em;
-  background: #B83280;
+  background: #2A4365;
   border-radius: 50%;
   border: none;
   font-weight: bolder;
@@ -110,7 +110,7 @@ section[class] section  #font-title{
 .font-bar {
   width: 10em;
   height: 2em;
-  background: #FED7E2;
+  background: #90CDF4;
   border-radius: 15px;
   position: relative;
 }
@@ -122,7 +122,7 @@ section[class] section  #font-title{
   width: 2em;
   border-radius: 50%;
   transition: 0.2s ease-in-out;
-  background: #702459;
+  background: #2B6CB0;
 }
 
 header, footer, section.grid-about {
@@ -169,8 +169,8 @@ section {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  border-top-color: #D53F8C;
-  border-left-color: #D53F8C;
+  border-top-color: #2A4365;
+  border-left-color:  #2A4365;
   animation: spin 1.5s infinite ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -226,7 +226,7 @@ form input{
 .suggestions{
   height: auto;
   width: auto;
-  background: #FED7E2;
+  background:  #FEFCBF;
   border-radius: 8px;
   margin-bottom: .5em;
   transition: 0.2s ease-in-out;
@@ -241,7 +241,7 @@ form input{
   padding: 3vmin 2vmin;
   border-radius: 8px;
   border: none;
-  background: #FED7E2;
+  background: #FEFCBF;
   font-weight: 600;
   font-size: 1em;
   transition: 0.2s ease-in-out;
@@ -249,7 +249,7 @@ form input{
 
 .suggestions .active-list-item{
   transition: 0.2s ease-in-out;
-  background: #FBB6CE;
+  background: #FAF089;
   outline: none;
 }
 
@@ -268,7 +268,7 @@ form input:focus, form select:focus {
 }
 
 form button {
-  background: #D53F8C;
+  background: #2A4365;
   color: white;
   position: relative;
   width: 100%;
@@ -277,7 +277,7 @@ form button {
 }
 
 form button::before {
-  background: #702459;
+  background: #2B6CB0;
   content: '';
   width: 0;
   height: 100%;
@@ -325,7 +325,7 @@ section[class] section:nth-child(2) button {
   padding: 1vmax 2vmax;
   border-radius: 8px;
   border: none;
-  background: #D53F8C;
+  background: #2A4365;
   color: white;
   font-weight: 600;
   font-size: 1em;
@@ -398,7 +398,7 @@ footer p {
 }
 
 .about em{
-  color: #D53F8C;
+  color: #2A4365;
 }
 
 .about .grid-about{

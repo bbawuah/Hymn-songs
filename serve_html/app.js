@@ -19,7 +19,7 @@ app.use(express.static(publicDirectoryPath));
 
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'Advent hymnal',
+    title: 'Adventist hymnal',
     message: "Lighten someone's day with this application!"
   })
 })
@@ -27,7 +27,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'Advent hymnal',
+    title: 'Adventist hymnal',
     message: "Lighten someone's day with this application!"
   })
 })
