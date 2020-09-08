@@ -134,6 +134,14 @@ header, footer, section.grid-about {
   flex-wrap: wrap;
 }
 
+.grid-about > .privacy{
+  margin: 0 auto;
+}
+
+.grid-about .privacy > p {
+  margin: 1rem 0;
+}
+
 .grid-about img {
   border-radius: 100%;
   margin-bottom: 2em;

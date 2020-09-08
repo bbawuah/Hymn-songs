@@ -32,6 +32,13 @@ app.get('/about', (req, res) => {
   })
 })
 
+app.get('/privacy', (req, res) => {
+  res.render('privacy', {
+    title: 'Adventist hymnal',
+    message: "Lighten someone's day with this application!"
+  })
+})
+
 
 
 
